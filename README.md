@@ -101,3 +101,4 @@ And some hints regarding ~~clean code~~ refactoring:
 - Please remove all comments and commented-out code blocks.
 - Ask yourself the question: 'What does this method do?' If the answer has the word 'and' or 'or' in it, the method does not adhere to the Single Responsibility Principle. Refactor it by moving offending code to other (private) methods
 - repeat that last thing about the whole Codebreaker::Game class. Maybe you need an extra class, so your classes also adhere to the SRP!
+# mastermind

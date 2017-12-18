@@ -23,7 +23,7 @@ RSpec.describe Codebreaker do
 
   describe "#guess" do
     context "[A] basic set up" do
-      let(:secret_number) { '1234' }
+      let(:secret_number) { '3456' }
 
       it "does not contain a getting started implementation" do
         game.start(secret_number)
